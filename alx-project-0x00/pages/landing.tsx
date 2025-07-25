@@ -19,19 +19,25 @@ const Landing = () => {
       <h1 className="text-xl font-bold mb-4">Button Variants</h1>
 
       {/* Small Buttons */}
-      <Button title="Small Rounded-sm" className="text-sm rounded-sm" />
-      <Button title="Small Rounded-md" className="text-sm rounded-md" />
-      <Button title="Small Rounded-full" className="text-sm rounded-full" />
+      <div className="space-x-2">
+        <Button title="Small sm" styles="text-sm rounded-sm" />
+        <Button title="Small md" styles="text-sm rounded-md" />
+        <Button title="Small full" styles="text-sm rounded-full" />
+      </div>
 
       {/* Medium Buttons */}
-      <Button title="Medium Rounded-sm" className="text-base rounded-sm" />
-      <Button title="Medium Rounded-md" className="text-base rounded-md" />
-      <Button title="Medium Rounded-full" className="text-base rounded-full" />
+      <div className="space-x-2">
+        <Button title="Medium sm" styles="text-base rounded-sm" />
+        <Button title="Medium md" styles="text-base rounded-md" />
+        <Button title="Medium full" styles="text-base rounded-full" />
+      </div>
 
       {/* Large Buttons */}
-      <Button title="Large Rounded-sm" className="text-lg rounded-sm" />
-      <Button title="Large Rounded-md" className="text-lg rounded-md" />
-      <Button title="Large Rounded-full" className="text-lg rounded-full" />
+      <div className="space-x-2">
+        <Button title="Large sm" styles="text-lg rounded-sm" />
+        <Button title="Large md" styles="text-lg rounded-md" />
+        <Button title="Large full" styles="text-lg rounded-full" />
+      </div>
     </div>
   );
 };
