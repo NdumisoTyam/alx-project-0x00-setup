@@ -4,5 +4,5 @@ export interface PillProps {
 
 export interface ButtonProps {
   title: string;
-  styles?: string; // Optional custom styles passed as string
+  styles: string; // Optional custom styles passed as string
 }
