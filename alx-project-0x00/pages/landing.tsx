@@ -11,7 +11,7 @@ const Landing: React.FC = () => {
 export default Landing;
 
 import React from "react";
-import Button from "../components/Button";
+import Button from "@/components/Button";
 
 const Landing = () => {
   return (
